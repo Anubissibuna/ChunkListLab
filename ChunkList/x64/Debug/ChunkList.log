@@ -1,0 +1,39 @@
+﻿  main.cpp
+C:\Users\NeoCom\source\repos\Chunk-master\ChunkList\ChunkList.h(611,20): warning C4244: инициализация: преобразование "ChunkListLab::ChunkList<int,9,ChunkListLab::Allocator<T>>::difference_type" в "int", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+C:\Users\NeoCom\source\repos\Chunk-master\ChunkList\ChunkList.h(610): message : во время компиляции функции-члена класс шаблон "int &ChunkListLab::ChunkList<int,9,ChunkListLab::Allocator<T>>::operator [](ChunkListLab::ChunkList<T,9,ChunkListLab::Allocator<T>>::difference_type)"
+          with
+          [
+              T=int
+          ]
+C:\Users\NeoCom\source\repos\Chunk-master\ChunkList\main.cpp(9): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "ChunkListLab::ChunkList<int,9,ChunkListLab::Allocator<T>>"
+          with
+          [
+              T=int
+          ]
+C:\Users\NeoCom\source\repos\Chunk-master\ChunkList\ChunkList.h(573,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\NeoCom\source\repos\Chunk-master\ChunkList\ChunkList.h(572): message : во время компиляции функции-члена класс шаблон "int &ChunkListLab::ChunkList<int,9,ChunkListLab::Allocator<T>>::at(ChunkListLab::ChunkList<T,9,ChunkListLab::Allocator<T>>::size_type)"
+          with
+          [
+              T=int
+          ]
+C:\Users\NeoCom\source\repos\Chunk-master\ChunkList\ChunkList.h(813): message : выполняется компиляция ссылки на экземпляр шаблон функции "int &ChunkListLab::ChunkList<int,9,ChunkListLab::Allocator<T>>::at(ChunkListLab::ChunkList<T,9,ChunkListLab::Allocator<T>>::size_type)"
+          with
+          [
+              T=int
+          ]
+C:\Users\NeoCom\source\repos\Chunk-master\ChunkList\ChunkList.h(593,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\NeoCom\source\repos\Chunk-master\ChunkList\ChunkList.h(592): message : во время компиляции функции-члена класс шаблон "const int &ChunkListLab::ChunkList<int,9,ChunkListLab::Allocator<T>>::at(ChunkListLab::ChunkList<T,9,ChunkListLab::Allocator<T>>::size_type) const"
+          with
+          [
+              T=int
+          ]
+C:\Users\NeoCom\source\repos\Chunk-master\ChunkList\ChunkList.h(692): message : выполняется компиляция ссылки на экземпляр шаблон функции "const int &ChunkListLab::ChunkList<int,9,ChunkListLab::Allocator<T>>::at(ChunkListLab::ChunkList<T,9,ChunkListLab::Allocator<T>>::size_type) const"
+          with
+          [
+              T=int
+          ]
+  ChunkList.vcxproj -> C:\Users\NeoCom\source\repos\Chunk-master\x64\Debug\ChunkList.exe
